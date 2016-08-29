@@ -7,8 +7,8 @@
 
   :target-path "target/%s"
 
-  :profiles {:main-a {:main many-mains.abc}
-             :main-b {:main many-mains.def}
+  :profiles {:main-abc {:main many-mains.abc}
+             :main-def {:main many-mains.def}
+             :main-ghi {:main org.rekdev.mm.ghi}
              :core {:main many-mains.core}
              :uberjar {:aot :all}})
-
